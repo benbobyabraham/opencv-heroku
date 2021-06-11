@@ -23,7 +23,7 @@ pages = {
     "Dilation" : dilation
 }
 
-st.sidebar.title('NAVIGATION')
+st.sidebar.title('Navigation')
 select = st.sidebar.selectbox("Go To", ["Image" , "Video"])
 
 if(select == "Image"):
